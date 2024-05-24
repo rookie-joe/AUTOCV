@@ -1,6 +1,6 @@
 # AUTOCV: Empowering Reasoning with Automated Process Labeling via Confidence Variation
 
-**We will release the code and corresponding finetuned process-enhanced verifier soon.**. This repository is the official implementation of "Empowering Reasoning with Automated Process Labeling via Confidence Variation" (AUTOCV), which is currently under review for presentation at NeurIPS 2024. It offers vital resources intended to aid reviewers in assessing the paper's contributions to enhancing reasoning capabilities in large language models through innovative automated process labeling based on confidence variation.
+**We will release the code and corresponding finetuned process-enhanced verifier soon.** This repository is the official implementation of "Empowering Reasoning with Automated Process Labeling via Confidence Variation" (AUTOCV), which is currently under review for presentation at NeurIPS 2024. It offers vital resources intended to aid reviewers in assessing the paper's contributions to enhancing reasoning capabilities in large language models through innovative automated process labeling based on confidence variation.
 
 Please note that certain portions of the code are withheld due to confidentiality considerations. As such, we cannot guarantee the smooth execution of the code provided. Efforts are underway to ensure that the code complies with open-access requirements before its full release.
 
@@ -54,9 +54,9 @@ pip install -r requirements.txt
 
 
 
-## Outcome-supervised & Process-supervised Verifer Models [todo]
+## Process-enhanced Verifer Models [todo]
 
-You can access pretrained AUTOCV models here:
+You can access the process-enhanced verifier AUTOCV models here:
 
 - [AUTOCV pretrained model](https://drive.google.com/autocv_pretrained.pth) trained using our advanced process-supervised learning paradigm.
 
