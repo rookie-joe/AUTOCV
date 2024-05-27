@@ -1,6 +1,6 @@
 # AUTOCV: Empowering Reasoning with Automated Process Labeling via Confidence Variation
 
-**We will release the code and corresponding finetuned process-enhanced verifier soon.** This repository is the official implementation of "Empowering Reasoning with Automated Process Labeling via Confidence Variation" (AUTOCV). It offers vital resources intended to aid reviewers in assessing the paper's contributions to enhancing reasoning capabilities in large language models through innovative automated process labeling based on confidence variation.
+**We will release the code and corresponding finetuned process-enhanced verifier soon.** This repository is the official implementation of "Empowering Reasoning with Automated Process Labeling via Confidence Variation" (AUTOCV). 
 
 Please note that certain portions of the code are withheld due to confidentiality considerations. As such, we cannot guarantee the smooth execution of the code provided. Efforts are underway to ensure that the code complies with open-access requirements before its full release.
 
