@@ -1,13 +1,13 @@
 # AUTOCV: Empowering Reasoning with Automated Process Labeling via Confidence Variation
 
-**We will release the code and corresponding finetuned process-enhanced verifier soon.** This repository is the official implementation of [Empowering Reasoning with Automated Process Labeling via Confidence Variation ((**<span style="font-variant: small-caps;">AUTOCV</span>**))](https://arxiv.org/abs/2405.16802). 
+**We will release the code and corresponding finetuned process-enhanced verifier soon.** This repository is the official implementation of [AutoCV: Empowering Reasoning with Automated Process Labeling via Confidence Variation](https://arxiv.org/abs/2405.16802). 
 
 Please note that certain portions of the code are withheld due to confidentiality considerations. As such, we cannot guarantee the smooth execution of the code provided. Efforts are underway to ensure the code complies with open-access requirements before its full release.
 
 
-**Overview of the AUTOCV Framework:**
+##  Overview of the AUTOCV Framework
 
-![AUTOCV overview](./AUTOCV_main.pdf)
+![AUTOCV overview](./AUTOCV_main.png)
 
 
 1. **Outcome-Supervised Verifier:** AUTOCV employs an outcome-based verifier that automatically generates process annotations for each reasoning step by monitoring its own confidence variations, operating independently of ground truth annotations.
