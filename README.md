@@ -1,8 +1,20 @@
 # AUTOCV: Empowering Reasoning with Automated Process Labeling via Confidence Variation
 
-**We will release the code and corresponding finetuned process-enhanced verifier soon.** This repository is the official implementation of "Empowering Reasoning with Automated Process Labeling via Confidence Variation" (AUTOCV). 
+**We will release the code and corresponding finetuned process-enhanced verifier soon.** This repository is the official implementation of [Empowering Reasoning with Automated Process Labeling via Confidence Variation ((**<span style="font-variant: small-caps;">AUTOCV</span>**))](https://arxiv.org/abs/2405.16802). 
 
-Please note that certain portions of the code are withheld due to confidentiality considerations. As such, we cannot guarantee the smooth execution of the code provided. Efforts are underway to ensure that the code complies with open-access requirements before its full release.
+Please note that certain portions of the code are withheld due to confidentiality considerations. As such, we cannot guarantee the smooth execution of the code provided. Efforts are underway to ensure the code complies with open-access requirements before its full release.
+
+
+**Overview of the AUTOCV Framework:**
+
+![AUTOCV overview](./AUTOCV_main.pdf)
+
+
+1. **Outcome-Supervised Verifier:** AUTOCV employs an outcome-based verifier that automatically generates process annotations for each reasoning step by monitoring its own confidence variations, operating independently of ground truth annotations.
+2. **Annotation Generation:** The method efficiently produces annotations that serve as process supervision during training large language models (LLMs), eliminating the need for costly manual annotations.
+3. **LLM Training:** These generated annotations are utilized to provide targeted supervision during the LLM training phase, enhancing the model's ability to understand and generate reasoning processes.
+4. **Continuous Improvement:** As the LLM training progresses, the process-enhanced verifier continuously refines its annotation capabilities based on the evolving quality of the LLM's outputs, creating a feedback loop that improves the verifier interatively.
+
 
 ## Repository Structure
 
@@ -91,3 +103,17 @@ Interested in contributing? We welcome your input and suggestions! Please ensure
 ## License
 
 This work is licensed under CC BY 4.0 (Creative Commons Attribution 4.0 International License).
+
+
+## Citation
+If you find the methods and resources provided in this work beneficial, we kindly request that you cite our paper. Below is the BibTeX entry for your convenience:
+
+
+```bibtex
+@article{lu2024process,
+  title={Process-Driven Autoformalization in Lean 4},
+  author={Lu, Jianqiao and Liu, Zhengying and Wan, Yingjia and Huang, Yinya and Wang, Haiming and Yang, Zhicheng and Tang, Jing and Guo, Zhijiang},
+  journal={arXiv preprint arXiv:2406.01940},
+  year={2024}
+}
+```
