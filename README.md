@@ -9,7 +9,6 @@ Please note that certain portions of the code are withheld due to confidentialit
 
 ![AUTOCV overview](./AUTOCV_main.png)
 
-
 1. **Outcome-Supervised Verifier:** AUTOCV employs an outcome-based verifier that automatically generates process annotations for each reasoning step by monitoring its own confidence variations, operating independently of ground truth annotations.
 2. **Annotation Generation:** The method efficiently produces annotations that serve as process supervision during training large language models (LLMs), eliminating the need for costly manual annotations.
 3. **LLM Training:** These generated annotations are utilized to provide targeted supervision during the LLM training phase, enhancing the model's ability to understand and generate reasoning processes.
