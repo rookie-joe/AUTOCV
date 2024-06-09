@@ -109,10 +109,10 @@ If you find the methods and resources provided in this work beneficial, we kindl
 
 
 ```bibtex
-@article{lu2024process,
-  title={Process-Driven Autoformalization in Lean 4},
-  author={Lu, Jianqiao and Liu, Zhengying and Wan, Yingjia and Huang, Yinya and Wang, Haiming and Yang, Zhicheng and Tang, Jing and Guo, Zhijiang},
-  journal={arXiv preprint arXiv:2406.01940},
+@article{lu2024autocv,
+  title={AutoCV: Empowering Reasoning with Automated Process Labeling via Confidence Variation},
+  author={Lu, Jianqiao and Dou, Zhiyang and Wang, Hongru and Cao, Zeyu and Dai, Jianbo and Wan, Yingjia and Huang, Yinya and Guo, Zhijiang},
+  journal={arXiv preprint arXiv:2405.16802},
   year={2024}
 }
 ```
